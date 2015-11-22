@@ -1,0 +1,755 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C3A1878A-662B-476C-9EB2-2F37DBE5B570}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>ISPCFG.Msce</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ISPCFG.Msce</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxPro">
+      <Name>AjaxPro</Name>
+      <HintPath>bin\AjaxPro.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Web.C1Command">
+      <Name>C1.Web.C1Command</Name>
+      <HintPath>bin\C1.Web.C1Command.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <Name>MySql.Data</Name>
+      <HintPath>bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="academico.aspx.cs">
+      <DependentUpon>academico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="academico.aspx.designer.cs">
+      <DependentUpon>academico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bibliografia_cd.aspx.cs">
+      <DependentUpon>bibliografia_cd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bibliografia_cd.aspx.designer.cs">
+      <DependentUpon>bibliografia_cd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="buscador_bibliografias.aspx.cs">
+      <DependentUpon>buscador_bibliografias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="buscador_bibliografias.aspx.designer.cs">
+      <DependentUpon>buscador_bibliografias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="buscador_consultas.aspx.cs">
+      <DependentUpon>buscador_consultas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="buscador_consultas.aspx.designer.cs">
+      <DependentUpon>buscador_consultas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="buscador_usuarios.aspx.cs">
+      <DependentUpon>buscador_usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="buscador_usuarios.aspx.designer.cs">
+      <DependentUpon>buscador_usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="categoria_docente.aspx.cs">
+      <DependentUpon>categoria_docente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="categoria_docente.aspx.designer.cs">
+      <DependentUpon>categoria_docente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clsAcademico.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsBibliografia.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsBibliografiaAudiovisual.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsBibliografiaCD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsBibliografiaDocumento.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCategoriaDocente.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsConsulta.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCurso.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDocente.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsEncuentro.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsGrupo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsMaestrante.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsMaestria.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsMencion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsMiMaletin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsModulo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsMunicipio.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsProcessError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsProvincia.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSede.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTema.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTemaProyecto.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTituloAcademico.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsUsuario.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsUsuario_Mensaje.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsUtiles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="consultar.aspx.cs">
+      <DependentUpon>consultar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consultar.aspx.designer.cs">
+      <DependentUpon>consultar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="curso_tema.aspx.cs">
+      <DependentUpon>curso_tema.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="curso_tema.aspx.designer.cs">
+      <DependentUpon>curso_tema.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="docente.aspx.cs">
+      <DependentUpon>docente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="docente.aspx.designer.cs">
+      <DependentUpon>docente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editar_bibliografia.aspx.cs">
+      <DependentUpon>editar_bibliografia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editar_bibliografia.aspx.designer.cs">
+      <DependentUpon>editar_bibliografia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="grupo.aspx.cs">
+      <DependentUpon>grupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="grupo.aspx.designer.cs">
+      <DependentUpon>grupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lista_modulos.aspx.cs">
+      <DependentUpon>lista_modulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lista_modulos.aspx.designer.cs">
+      <DependentUpon>lista_modulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lista_sedes.aspx.cs">
+      <DependentUpon>lista_sedes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lista_sedes.aspx.designer.cs">
+      <DependentUpon>lista_sedes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lista_usuarios.aspx.cs">
+      <DependentUpon>lista_usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lista_usuarios.aspx.designer.cs">
+      <DependentUpon>lista_usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="maestrante.aspx.cs">
+      <DependentUpon>maestrante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="maestrante.aspx.designer.cs">
+      <DependentUpon>maestrante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="maestria.aspx.cs">
+      <DependentUpon>maestria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="maestria.aspx.designer.cs">
+      <DependentUpon>maestria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mencion.aspx.cs">
+      <DependentUpon>mencion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mencion.aspx.designer.cs">
+      <DependentUpon>mencion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mi_maletin.aspx.cs">
+      <DependentUpon>mi_maletin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mi_maletin.aspx.designer.cs">
+      <DependentUpon>mi_maletin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modulo.aspx.cs">
+      <DependentUpon>modulo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modulo.aspx.designer.cs">
+      <DependentUpon>modulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="perfil.aspx.cs">
+      <DependentUpon>perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="perfil.aspx.designer.cs">
+      <DependentUpon>perfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="planificar_encuentros.aspx.cs">
+      <DependentUpon>planificar_encuentros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="planificar_encuentros.aspx.designer.cs">
+      <DependentUpon>planificar_encuentros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="responder_consultas.aspx.cs">
+      <DependentUpon>responder_consultas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="responder_consultas.aspx.designer.cs">
+      <DependentUpon>responder_consultas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="revisar_solicitud_registro.aspx.cs">
+      <DependentUpon>revisar_solicitud_registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="revisar_solicitud_registro.aspx.designer.cs">
+      <DependentUpon>revisar_solicitud_registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="revisar_tema_proyecto.aspx.cs">
+      <DependentUpon>revisar_tema_proyecto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="revisar_tema_proyecto.aspx.designer.cs">
+      <DependentUpon>revisar_tema_proyecto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sede.aspx.cs">
+      <DependentUpon>sede.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sede.aspx.designer.cs">
+      <DependentUpon>sede.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="solicitar_tema_proyecto.aspx.cs">
+      <DependentUpon>solicitar_tema_proyecto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="solicitar_tema_proyecto.aspx.designer.cs">
+      <DependentUpon>solicitar_tema_proyecto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tema_proyecto.aspx.cs">
+      <DependentUpon>tema_proyecto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tema_proyecto.aspx.designer.cs">
+      <DependentUpon>tema_proyecto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="titulo_academico.aspx.cs">
+      <DependentUpon>titulo_academico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="titulo_academico.aspx.designer.cs">
+      <DependentUpon>titulo_academico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ver_encuentros.aspx.cs">
+      <DependentUpon>ver_encuentros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ver_encuentros.aspx.designer.cs">
+      <DependentUpon>ver_encuentros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wucHeader.ascx.cs">
+      <DependentUpon>wucHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wucHeader.ascx.designer.cs">
+      <DependentUpon>wucHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="wucHeaderNavBar.ascx.cs">
+      <DependentUpon>wucHeaderNavBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wucHeaderNavBar.ascx.designer.cs">
+      <DependentUpon>wucHeaderNavBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="wucLeftOptions.ascx.cs">
+      <DependentUpon>wucLeftOptions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wucLeftOptions.ascx.designer.cs">
+      <DependentUpon>wucLeftOptions.ascx</DependentUpon>
+    </Compile>
+    <Content Include="academico.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="bibliografia\basica\audiovisual\media.swf" />
+    <Content Include="bibliografia\complementaria\audiovisual\media.swf" />
+    <Content Include="bibliografia_cd.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="buscador_bibliografias.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="buscador_consultas.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="buscador_usuarios.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="categoria_docente.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="consultar.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="curso_tema.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="docente.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="editar_bibliografia.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="estilos\main.css" />
+    <Content Include="estilos\test.css" />
+    <Content Include="Global.asax">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="grupo.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="imagenes\ayudita_icon.gif" />
+    <Content Include="imagenes\body_bg.gif" />
+    <Content Include="imagenes\body_header.gif" />
+    <Content Include="imagenes\btn_actualizar.gif" />
+    <Content Include="imagenes\btn_aprobar.gif" />
+    <Content Include="imagenes\btn_buscar.gif" />
+    <Content Include="imagenes\btn_cancelar.gif" />
+    <Content Include="imagenes\btn_eliminar.gif" />
+    <Content Include="imagenes\btn_login.gif" />
+    <Content Include="imagenes\btn_logout.gif" />
+    <Content Include="imagenes\btn_my_profile.gif" />
+    <Content Include="imagenes\btn_nuevo.gif" />
+    <Content Include="imagenes\btn_register.gif" />
+    <Content Include="imagenes\favicon.ico" />
+    <Content Include="imagenes\header_bar_left.gif" />
+    <Content Include="imagenes\header_bar_right.gif" />
+    <Content Include="imagenes\header_button_home.gif" />
+    <Content Include="imagenes\header_image_1.gif" />
+    <Content Include="imagenes\header_logo1.gif" />
+    <Content Include="imagenes\header_logo2.gif" />
+    <Content Include="imagenes\header_members.gif" />
+    <Content Include="imagenes\header_members_bg.gif" />
+    <Content Include="imagenes\logo_academico.gif" />
+    <Content Include="imagenes\logo_cep.gif" />
+    <Content Include="imagenes\logo_docente.gif" />
+    <Content Include="imagenes\logo_docente_cancel.gif" />
+    <Content Include="imagenes\logo_iplac.gif" />
+    <Content Include="imagenes\logo_maestrante.gif" />
+    <Content Include="imagenes\logo_mi_maletin.gif" />
+    <Content Include="imagenes\minus.gif" />
+    <Content Include="imagenes\plus.gif" />
+    <Content Include="imagenes\search_bg.gif" />
+    <Content Include="imagenes\side_nav_bg.gif" />
+    <Content Include="imagenes\spacer.gif" />
+    <Content Include="imagenes\webmnu_down.gif" />
+    <Content Include="imagenes\webmnu_separator.gif" />
+    <Content Include="includes\C1WebCommand\c1menu.js" />
+    <Content Include="includes\C1WebCommand\c1toolbar.js" />
+    <Content Include="includes\C1WebCommand\c1topicbar.js" />
+    <Content Include="includes\dates.js" />
+    <Content Include="includes\main.js" />
+    <Content Include="includes\multifile.js" />
+    <Content Include="index.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="lista_modulos.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="lista_sedes.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="lista_usuarios.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="maestrante.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="maestria.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="mencion.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="mi_maletin.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="modulo.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="perfil.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="planificar_encuentros.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="register.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="responder_consultas.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="revisar_solicitud_registro.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="revisar_tema_proyecto.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="sede.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="solicitar_tema_proyecto.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="tema_proyecto.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="test.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="test.htm" />
+    <Content Include="test1.htm" />
+    <Content Include="titulo_academico.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="ver_encuentros.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web.config" />
+    <Content Include="wucHeader.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="wucHeaderNavBar.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="wucLeftOptions.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <EmbeddedResource Include="academico.aspx.resx">
+      <DependentUpon>academico.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bibliografia_cd.aspx.resx">
+      <DependentUpon>bibliografia_cd.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscador_bibliografias.aspx.resx">
+      <DependentUpon>buscador_bibliografias.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscador_consultas.aspx.resx">
+      <DependentUpon>buscador_consultas.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscador_usuarios.aspx.resx">
+      <DependentUpon>buscador_usuarios.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="categoria_docente.aspx.resx">
+      <DependentUpon>categoria_docente.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultar.aspx.resx">
+      <DependentUpon>consultar.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="curso_tema.aspx.resx">
+      <DependentUpon>curso_tema.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="docente.aspx.resx">
+      <DependentUpon>docente.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editar_bibliografia.aspx.resx">
+      <DependentUpon>editar_bibliografia.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grupo.aspx.resx">
+      <DependentUpon>grupo.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.aspx.resx">
+      <DependentUpon>index.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="lista_modulos.aspx.resx">
+      <DependentUpon>lista_modulos.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lista_sedes.aspx.resx">
+      <DependentUpon>lista_sedes.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lista_usuarios.aspx.resx">
+      <DependentUpon>lista_usuarios.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maestrante.aspx.resx">
+      <DependentUpon>maestrante.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maestria.aspx.resx">
+      <DependentUpon>maestria.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mencion.aspx.resx">
+      <DependentUpon>mencion.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mi_maletin.aspx.resx">
+      <DependentUpon>mi_maletin.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modulo.aspx.resx">
+      <DependentUpon>modulo.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perfil.aspx.resx">
+      <DependentUpon>perfil.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="planificar_encuentros.aspx.resx">
+      <DependentUpon>planificar_encuentros.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="register.aspx.resx">
+      <DependentUpon>register.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="responder_consultas.aspx.resx">
+      <DependentUpon>responder_consultas.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="revisar_solicitud_registro.aspx.resx">
+      <DependentUpon>revisar_solicitud_registro.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="revisar_tema_proyecto.aspx.resx">
+      <DependentUpon>revisar_tema_proyecto.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sede.aspx.resx">
+      <DependentUpon>sede.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="solicitar_tema_proyecto.aspx.resx">
+      <DependentUpon>solicitar_tema_proyecto.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tema_proyecto.aspx.resx">
+      <DependentUpon>tema_proyecto.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test.aspx.resx">
+      <DependentUpon>test.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="titulo_academico.aspx.resx">
+      <DependentUpon>titulo_academico.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ver_encuentros.aspx.resx">
+      <DependentUpon>ver_encuentros.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wucHeader.ascx.resx">
+      <DependentUpon>wucHeader.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wucHeaderNavBar.ascx.resx">
+      <DependentUpon>wucHeaderNavBar.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wucLeftOptions.ascx.resx">
+      <DependentUpon>wucLeftOptions.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bibliografia\basica\cd\" />
+    <Folder Include="bibliografia\basica\documento\" />
+    <Folder Include="bibliografia\complementaria\cd\" />
+    <Folder Include="bibliografia\complementaria\documento\" />
+    <Folder Include="bin\" />
+    <Folder Include="briefcases\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>23817</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/msce</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

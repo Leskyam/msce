@@ -1,0 +1,480 @@
+body
+{
+	font-size: 8pt;
+	font-family: Verdana, sans-serif, Arial;
+	color: #000000;
+}
+
+TD
+{
+	font-size: 8pt;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+/* HIPERVÍNCULOS */
+
+/* Hipervínculo */
+A
+{
+	color: #072660;
+	text-decoration: none;
+}
+
+A:link
+{
+	color: #072660; /* Azul bien oscuro */
+	text-decoration: none;
+}
+
+/* Hipervínculo con el cursor encima */
+A:hover
+{
+	color: #0E308A; /* Azul no tan oscuro */
+	text-decoration: underline;
+}
+
+/* TÍTULOS Y SUBTÍTULOS */
+
+/* Título de la aplicación: Blanco */
+.tit_Aplicacion_B
+{
+	font-weight: bold;
+	font-size: 14pt;
+	vertical-align: baseline;
+	color: #ffffff;
+	text-align: center;
+}
+/* Título de la aplicación: Azul */
+.tit_Aplicacion_A
+{
+	font-weight: bold;
+	font-size: 14pt;
+	vertical-align: baseline;
+	color: #47639a; /* Azul fuerte */
+	text-align: center;
+}
+/* Título de la aplicación: Negro */
+.tit_Aplicacion_N
+{
+	font-weight: bold;
+	font-size: 14pt;
+	vertical-align: baseline;
+	color: #000000;
+	text-align: center;
+}
+
+/* Título de la maestría: Blanco */
+.tit_Maestria_B
+{
+	font-weight: bold;
+	font-size: 12pt;
+	vertical-align: baseline;
+	color: #ffffff;
+	text-align: center;
+}
+/* Título de la maestría: Azul */
+.tit_Maestria_A
+{
+	font-weight: bold;
+	font-size: 12pt;
+	vertical-align: baseline;
+	color: #47639a; /* Azul fuerte */
+	text-align: center;
+}
+/* Título de la maestría: Negro */
+.tit_Maestria_N
+{
+	font-weight: bold;
+	font-size: 12pt;
+	vertical-align: baseline;
+	color: #000000;
+	text-align: center;
+}
+
+/* SubTítulo: Blanco */
+.subtit_B
+{
+	font-weight: bold;
+	font-size: 9pt;
+	vertical-align: baseline;
+	color: #ffffff;
+	text-align: center;
+}
+/* SubTítulo: Azul */
+.subtit_A
+{
+	font-weight: bold;
+	font-size: 9pt;
+	vertical-align: baseline;
+	color: #47639a; /* Azul fuerte */
+	text-align: center;
+}
+/* SubTítulo: Negro */
+.subtit_N
+{
+	font-weight: bold;
+	font-size: 9pt;
+	vertical-align: baseline;
+	color: #000000;
+	text-align: center;
+}
+
+
+/* PARA FORMULARIOS */
+/* controles imput de tipo texto */
+.frmTextInput
+{
+	border-right: #6699cc 1px solid;
+	padding-right: 1px;
+	border-top: #6699cc 1px solid;
+	padding-left: 1px;
+	font-weight: normal;
+	font-size: 7pt;
+	padding-bottom: 1px;
+	border-left: #6699cc 1px solid;
+	color: #000000;
+	padding-top: 1px;
+	border-bottom: #6699cc 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	background-color: #f0f8ff;
+	text-decoration: none;
+}
+
+.frmTextInput_disabled
+{
+	border-right: #6699cc 1px solid;
+	padding-right: 1px;
+	border-top: #6699cc 1px solid;
+	padding-left: 1px;
+	font-weight: normal;
+	font-size: 7pt;
+	padding-bottom: 1px;
+	border-left: #6699cc 1px solid;
+	color: #000000;
+	padding-top: 1px;
+	border-bottom: #6699cc 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	background-color: #efebde;
+	text-decoration: none;
+}
+
+.frmButtonInput
+{
+	margin: 0px;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	border-right: #6699cc 1px solid;
+	border-top: #6699cc 1px solid;
+	font-weight: normal;
+	font-size: 7pt;
+	border-left: #6699cc 1px solid;
+	color: #000000;
+	border-bottom: #6699cc 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	background-color: #efebde;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.frmCheckInput
+{
+	border-right: #6699cc 1px;
+	padding-right: 1px;
+	border-top: #6699cc 1px;
+	padding-left: 1px;
+	font-weight: normal;
+	font-size: 7pt;
+	padding-bottom: 1px;
+	border-left: #6699cc 1px;
+	cursor: pointer;
+	color: #000000;
+	padding-top: 1px;
+	border-bottom: #6699cc 1px;
+	font-family: Verdana, sans-serif, Arial;
+	background-color: transparent;
+}
+
+.frmLabel
+{
+	font-size: 7pt;
+	color: #ffffff;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+/* TEXTOS PEQUEÑOS */
+.tinytext
+{
+	font-size: 7pt;
+	color: #ffffff;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+.tinytext_N
+{
+	font-size: 7pt;
+	color: #000000;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+.tinytext_A
+{
+	font-size: 7pt;
+	color: #47639a; /* Azul fuerte */
+	font-family: Verdana, sans-serif, Arial;
+}
+
+/* OTRAS PARTICULARIDADES */
+.textRoleName_B
+{
+	font-weight: bold;
+	font-size: 7.5pt;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: Verdana, sans-serif, Arial;
+}
+.textRoleName_A
+{
+	font-weight: bold;
+	font-size: 7.5pt;
+	text-transform: uppercase;
+	color: #47639a; /* Azul fuerte */
+	font-family: Verdana, sans-serif, Arial;
+}
+.textRoleName_N
+{
+	font-weight: bold;
+	font-size: 7.5pt;
+	text-transform: uppercase;
+	color: #000000;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+.textUserFullName_B
+{
+	font-weight: bold;
+	font-size: 7pt;
+	text-transform: capitalize;
+	color: #ffffff;
+	font-family: Verdana, sans-serif, Arial;
+}
+.textUserFullName_A
+{
+	font-weight: bold;
+	font-size: 7pt;
+	text-transform: capitalize;
+	color: #47639a; /* Azul fuerte */
+	font-family: Verdana, sans-serif, Arial;
+}
+.textUserFullName_N
+{
+	font-weight: bold;
+	font-size: 7pt;
+	text-transform: capitalize;
+	color: #000000;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+/* SPAN PARA NOTIFICACIONES DE ERROR */
+.spErrorNotification
+{
+	border-right: #990033 1px solid;
+	padding-right: 3px;
+	border-top: #990033 1px solid;
+	display: none;
+	padding-left: 3px;
+	font-weight: normal;
+	font-size: 7pt;
+	padding-bottom: 2px;
+	border-left: #990033 1px solid;
+	color: #dc143c;
+	padding-top: 1px;
+	border-bottom: #990033 1px solid;
+	font-family: Verdana;
+	background-color: #ffefd5;
+}
+
+/* SPAN PARA NOTIFICACIONES DE ERROR */
+.spWarningNotification
+{
+	border-right: #990033 1px solid;
+	padding-right: 3px;
+	border-top: #990033 1px solid;
+	display: none;
+	padding-left: 3px;
+	font-weight: normal;
+	font-size: 7pt;
+	padding-bottom: 2px;
+	border-left: #990033 1px solid;
+	color: #dc143c;
+	padding-top: 1px;
+	border-bottom: #990033 1px solid;
+	font-family: Verdana;
+	background-color: #f0f8ff;
+}
+
+.dvLeftOptionWrapper
+{
+	border-right: #748bb7 1px solid;
+	padding-right: 1px;
+	border-top: #748bb7 1px solid;
+	padding-left: 1px;
+	margin-bottom: 2px;
+	padding-bottom: 1px;
+	border-left: #748bb7 1px solid;
+	padding-top: 1px;
+	border-bottom: #748bb7 1px solid;
+}
+
+.dvLeftOptionHeader
+{
+	border-right: #748bb7 1px solid;
+	padding-right: 2px;
+	border-top: #748bb7 1px solid;
+	padding-left: 2px;
+	font-weight: normal;
+	padding-bottom: 1px;
+	border-left: #748bb7 1px solid;
+	cursor: pointer;
+	color: #415884;
+	padding-top: 1px;
+	border-bottom: #748bb7 1px solid;
+	background-color: #f0f8ff;
+}
+
+/* Para todos los elementos de contenido de las opciones a la izquierda. */
+.dvLeftOptionContent
+{
+	display: block;
+	margin: 2px 2px 2px 15px;
+	cursor: pointer;
+}
+
+/* Sólo para la lista de usuarios identificados de la izquierda. */
+.spLeftOptionContent
+{
+	display: block;
+	margin: 2px 2px 2px 15px;
+	cursor: pointer;
+	font-size: 7pt;
+}
+
+.td_DatosMaestria
+{
+	padding-bottom: 15px;
+}
+
+.hr_SeparatorRecord
+{
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #6699cc; /* Azul no tan oscuro */
+}
+
+/* Botón de tab con cursor establecido a "pointer" */
+.spTabButtomOn
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+	padding-bottom: 1px;
+	cursor: pointer;
+	color: #ffffff;
+	padding-top: 5px;
+	background-color: #748bb7;
+}
+
+/* Botón de tab cuya opción o cuerpo está visible */
+.spTabButtomOff
+{
+	border-right: #748bb7 1px solid;
+	padding-right: 5px;
+	border-top: #748bb7 1px solid;
+	padding-left: 5px;
+	font-weight: bold;
+	padding-bottom: 1px;
+	border-left: #748bb7 1px solid;
+	cursor: default;
+	color: #47639a;
+	padding-top: 5px;
+	border-bottom: #748bb7 1px;
+	background-color: #b3c7ef;
+}
+
+.spTabBody
+{
+	border-right: #748bb7 1px solid;
+	padding-right: 10px;
+	border-top: #748bb7 1px solid;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-left: #748bb7 1px solid;
+	padding-top: 10px;
+	border-bottom: #748bb7 1px solid;
+}
+
+.tinyTextInfo_B
+{
+	font-size: 7pt;
+	color: #ffffff;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+.tinyTextInfo_N
+{
+	font-size: 7pt;
+	color: #000000;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+.tinyTextInfo_A
+{
+	font-size: 7pt;
+	color: #47639a; /* Azul fuerte */
+	font-family: Verdana, sans-serif, Arial;
+}
+
+.mediumTextInfo_B
+{
+	font-size: 7.5pt;
+	color: #ffffff;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+.mediumTextInfo_N
+{
+	font-size: 7.5pt;
+	color: #000000;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+.mediumTextInfo_A
+{
+	font-size: 7.5pt;
+	color: #47639a; /* Azul fuerte */
+	font-family: Verdana, sans-serif, Arial;
+}
+
+.normalTextInfo_B
+{
+	font-size: 8pt;
+	color: #ffffff;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+.normalTextInfo_N
+{
+	font-size: 8pt;
+	color: #000000;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+.normalTextInfo_A
+{
+	font-size: 8pt;
+	color: #47639a; /* Azul fuerte */
+	font-family: Verdana, sans-serif, Arial;
+}

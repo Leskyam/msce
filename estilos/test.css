@@ -1,0 +1,47 @@
+body
+{
+	font-size: 8pt;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+/* Hipervínculo */
+A:link
+{
+	font-size: 8pt;
+	color: #000000;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+/* Hipervínculo con el cursor encima */
+A:hover
+{
+	font-size: 8pt;
+	color: #000000;
+	font-family: Verdana, sans-serif, Arial;
+	text-decoration: underline;
+}
+
+/* Hipervínculo mientras el navegador gestiona la página */
+A:visited
+{
+	font-size: 8pt;
+	color: Gray;
+	font-family: Verdana, sans-serif, Arial;
+}
+
+.sup
+{
+	border-right: #3a6ea5 1px solid;
+	padding-right: 2px;
+	border-top: background 1px solid;
+	padding-left: 2px;
+	font-weight: bold;
+	font-size: 7pt;
+	padding-bottom: 2px;
+	border-left: background 1px solid;
+	padding-top: 2px;
+	border-bottom: background 1px solid;
+	font-family: Verdana;
+	background-color: #fffff5;
+}
+

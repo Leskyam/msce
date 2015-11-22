@@ -1,0 +1,26 @@
+	Director
+smnuDatosGenerales
+smnuModulos
+smnuCategoriasDocentes
+smnuTitulosAcademicos
+smnuAcademicos
+
+	Académico
+smnuTemasProyecto
+smnuDocentes
+smnuMaestrantes
+mnuEditarBibliografia (Básica)
+
+	Docente
+mnuEditarBibliografia (Complementaria)
+mnuConsultas
+mnuEncuentros
+
+	Maestrante
+mnuConsultas
+mnuEncuentros
+mnuMiproyecto
+
+	TODOS
+mnuInicio
+mnuBuscarBibliografia

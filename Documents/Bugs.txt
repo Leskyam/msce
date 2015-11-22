@@ -1,0 +1,23 @@
+En las páginas "sede.aspx, modulo.aspx, curso_tema.aspx, mencion.aspx, grupo.aspx, tema_proyecto.aspx, categoria_docente.aspx,          titulo_academico.aspx" al ejecutar la opción "Nuevo" no se esconde el "DIV" para mensajes de advertencia o de error. (Resuelto).
+
+En la página "planificar_encuentros.aspx" no se advierte al usuario de cúal es el formato correcto para la fecha antes de que suceda un error por esta causa. (Resuelto).
+
+En la página "revisar_tema_proyecto.aspx" debe cambiarse el mensaje que aparece cuando no existen solicitudes en un estado determinado de "NO EXISTEN SOLICITUDES EN EL ESTADO SELECCIONADO." a "NO EXISTEN SOLICITUDES EN EL ESTADO 'NombreDelEstado'.", donde          "NombreDelEstado" se tomará del texto que aparece en la lista de la parte superior. (Resuelto).
+
+En las páginas "consultar.aspx" y "buscador_consultas.aspx" poner tope al texto que aparece en la lista "Tema" de las opciones avanzadas para que no desluzca el formulario porque crezca demasiado el contenido del texto de dicha lista. (Resuelto).
+
+En los resultados de la página "buscador_consultas.aspx" sólo aparecen el nombre tanto del maestrante que plantea la consulta como el del docente que la responde, cuando debían aparecer los apellidos correspondientes para ambos. (Resuelto).
+
+En las páginas "buscador_consultas.aspx" y "buscador_usuarios.aspx", en el texto de la sugerencia para una búsqueda más amplia dice          "Introduca" cuando debía ser "Introduzca", olvidastes las "z". (Resuelto).
+
+En la página "perfil.aspx?Id=1" cuando se cambia de "perfil público" a "perfil privado" se produce un mensaje de error malinformando al usuario    sobre la no actualización de los datos, lo cual no coincide con lo sucedido, pues los datos se actualizan. (Resuelto).
+
+
+**************************************
+******** ELEMENTOS A LARGO PLAZO ******** 
+**************************************
+
+No existe una página "Acerca de" donde se expongan: nombre de la aplicación, equipo de desarrollo, versión de la aplicación e    información       del copyright, al menos. (Pendiente).
+
+No existe ayuda alguna, accesible desde la propia aplicación (en línea). (Pendiente).
+
